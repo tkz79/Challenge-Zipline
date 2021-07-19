@@ -1,0 +1,49 @@
+AllCops:
+  NewCops: enable
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+Layout/EmptyLineBetweenDefs:
+  Exclude:
+    - lib/exceptions.rb
+
+Layout/LineLength:
+  Max: 150
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
+Lint/RaiseException:
+  Enabled: true
+Lint/StructNewOverride:
+  Enabled: true
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude: 
+    - spec/**/*
+Metrics/MethodLength:
+  Max: 15
+
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
+
+Style/ExponentialNotation:
+  Enabled: true
+Style/HashEachMethods:
+  Enabled: true
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+Style/RedundantRegexpEscape:
+  Enabled: true
+Style/SlicingWithRange:
+  Enabled: true
+Style/SymbolProc:
+  AllowMethodsWithArguments: true
