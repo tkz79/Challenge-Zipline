@@ -53,6 +53,13 @@ Results are written to a CSV file in the pwd that the utility is called from
 `output_{timestamp}_{algorithm}.csv`
 
 
+## TEST
+Testing is done with Aruba/Cucumber for integration and Rspec for unit. The tmp folder is used for writing to during testing.
+* Integration: `rake features`
+* Unit tests: `rake spec`
+* Both types: `rake spec features`
+
+
 ## Exit Codes
 * 0 - Success
 * 1 - Invalid command line option provided
